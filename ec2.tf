@@ -2,12 +2,12 @@
 terraform {
   required_providers {
     aws = {
-      source  = "hashicorp/aws"
+      source  = "hashicorp/azure"
       
     }
   }
 }
-
+#CHERRYPICK
 # Provider Block
 provider "azure" {
   profile = "default" 
