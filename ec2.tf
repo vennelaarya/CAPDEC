@@ -1,4 +1,4 @@
-# Terraform Configure setting block
+# Terraform Configure setting block and New Fetch and Merge Tasks
 terraform {
   required_providers {
     aws = {
